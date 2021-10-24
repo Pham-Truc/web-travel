@@ -1,0 +1,36 @@
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__top{
+        display: flex;
+        flex-direction: column;
+    }
+    .header__logo{
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__book-now-link{
+        display: none;
+    }
+    .destination__item-info{
+        margin-left: 8px;
+        margin-right: 8px;
+    }
+    .tour__imgages{
+        margin-top: 60px;
+    }
+    .tour__menu-item{
+        margin-bottom: 30px;
+    }
+    .tour__time{
+        width: 92%;
+    }
+    .footer__input{
+        margin-top: 40px;
+    }
+    .footer__btn{
+        padding-top: 10px;
+        display: inline-block;
+        width: 100%;
+    }
+}

@@ -1,0 +1,27 @@
+:root{
+    --white-color:#fff;
+    --black-color:#000;
+    --text-color: #9a9a9a;
+
+}
+
+*{
+    box-sizing: inherit;
+}
+
+html{
+    font-size: 62.5%;
+    /* line-height: 2rem; */
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+.btn{
+     font-size: 1.4rem;
+    border: none;
+    border-radius: 16px;
+    padding: 6px 24px;
+    /* color: #14b9d5; */
+    text-decoration: none;
+    background-color: var(--white-color);
+
+}
