@@ -1,10 +1,12 @@
-/* Tablet - PC low resolution */
-@media (min-width: 740px) and (max-width: 1023px) {
+/* Mobile */
+@media (max-width: 739px){
     .header__top{
         display: flex;
         flex-direction: column;
-    }
-    .header__logo{
+        justify-content: center;
+        align-items: center;
+        padding-left: 0;
+        background-color: #555555;
     }
     .header__nav{
         display: none;
@@ -12,10 +14,65 @@
     .header__book-now-link{
         display: none;
     }
+    .header__logo{
+        margin-bottom: 20px;
+    }
+    .header__search-heading{
+         text-align: center;
+    }
+    .header__search-sub-heading{
+        text-align: center;
+    }
+    .header__search-theme{
+        /* width: 100%; */
+    }
+    .header__search-theme-list{
+        display: flex;
+        padding-left: 0;
+        flex-direction: column;
+    }
+    .header__search-theme-item{
+        display: block;
+        margin: 12px 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .row.destination__list{
+        margin-bottom: 15px;
+    } 
+    .destination__item {
+        margin-bottom: 15px;
+    }
+    .footer__input-wrap {
+        margin-top: 40px;
+    }
+    .footer__btn{
+        margin-top: 12px;
+    }
+    .footer__btn-link{
+        display: block;
+    }
+
+}
+/* Tablet - PC low resolution */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .header__top{
+        display: flex;
+        flex-direction: column;
+    }
+    .header__nav{
+        display: none;
+    }
+    .header__book-now-link{
+        display: none;
+    }
+    
     .destination__item-info{
         margin-left: 8px;
         margin-right: 8px;
     }
+
     .tour__imgages{
         margin-top: 60px;
     }
@@ -32,5 +89,16 @@
         padding-top: 10px;
         display: inline-block;
         width: 100%;
+    }
+    .footer__license{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .footer__license > div:nth-child(1){
+        text-align: center;
+    }
+    .footer__license > div:nth-child(2){
+        text-align: center;
+        padding: 12px 0;
     }
 }
